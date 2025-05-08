@@ -10,7 +10,7 @@
 
 function longDivide () {
   let dividend = parseInt(document.getElementById('dividend').value)
-  let divisor = parseInt(document.getElementById('divisor').value)
+  const divisor = parseInt(document.getElementById('divisor').value)
   let quotient = 0
   let steps = ''
 
